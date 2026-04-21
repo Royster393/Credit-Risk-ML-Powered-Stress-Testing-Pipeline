@@ -57,3 +57,48 @@ The **Credit Risk Assesment.pbix** dashboard provides a "Command Center" view of
 ├── Credit Risk Assesment.pbix  # Master Power BI Dashboard
 ├── .gitignore                  # Prevents large data uploads
 └── README.md                   # Documentation
+```
+
+## 🛠️ Installation & Deployment
+
+### Prerequisites
+
+- Python 3.11+
+- MS SQL Server (Express/Developer)
+- Power BI Desktop
+
+### Setup
+
+1. **Clone the Repository:**
+
+   ```bash
+   git clone https://github.com/Royster393/Credit-Risk-Analytics-Pipeline.git
+   ```
+### Setup
+
+2. **Install Dependencies:**
+
+   ```bash
+   pip install pandas numpy sqlalchemy pyodbc scikit-learn
+   ```
+3. **Execute Pipeline:**
+
+   Ensure the Kaggle dataset is in the `/csv/` folder. Update the `SERVER_NAME` in `script/credit_assesment_ML.py`, then run:
+
+   ```bash
+   python script/credit_assesment_ML.py
+   ```
+## 👨‍💻 Author
+
+**Joel Roy**  
+Computer Science | University of Windsor  
+Specializing in Data Engineering & Cybersecurity
+
+---
+
+## 🚀 Key Improvements in this version:
+
+- **ML Focus:** Specifically mentions **Scikit-Learn** and **Random Forest**, which are keywords recruiters look for.
+- **Architecture:** Explains **why** ML is better than the old version (Probability scores vs. static thresholds).
+- **Badges:** Added a badge for Scikit-Learn.
+- **Clarity:** Uses clear folder structure and deployment steps.
