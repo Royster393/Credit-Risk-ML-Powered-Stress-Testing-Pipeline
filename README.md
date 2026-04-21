@@ -15,6 +15,18 @@ By shifting from rule-based logic (DTI thresholds) to **Probability-based Scorin
 
 ---
 
+## 🚀 Evolution: Why the ML Iteration is Superior
+The previous iteration of this project relied on **Heuristic Logic** (Hardcoded Rules), whereas this version utilizes **Inference-Based Machine Learning**.
+
+| Feature | Previous Iteration (Rule-Based) | Current Iteration (ML-Powered) |
+| :--- | :--- | :--- |
+| **Logic Type** | **Deterministic:** Human-defined thresholds (e.g., DTI > 40%). | **Probabilistic:** Algorithm-discovered patterns across 8+ variables. |
+| **Precision** | **Binary Labels:** Borrowers were simply "Safe" or "High Risk". | **Continuous Scoring:** Every borrower receives a 0.0–1.0 Probability Score. |
+| **Complexity** | Struggled with non-linear relationships between age/income. | **Multi-Dimensional:** Captures hidden risks (e.g., Renters + Venture Loans). |
+| **Scalability** | Rules required manual updates as market conditions changed. | **Self-Correcting:** Model can be retrained on new data to find new trends. |
+
+---
+
 ## 🏗️ System Architecture
 The system is built as a single-stream automation engine, moving data from raw sources to a structured analytics warehouse.
 
@@ -35,7 +47,7 @@ The pipeline automatically structures the database into two distinct tables:
 ---
 
 ## 📊 Analytics & BI Features
-The **Credit Risk Assesment.pbix** dashboard provides a "Command Center" view of portfolio health:
+The **Credit Risk Assesment ML.pbix** dashboard provides a "Command Center" view of portfolio health:
 * **Predictive Gauge:** Real-time visualization of the average portfolio default probability.
 * **Geographic Risk Heatmap:** Dynamic bubble mapping showing risk concentration in the Windsor-Toronto corridor.
 * **Venture Sector Deep-Dive:** Slicers that reveal how the ML model identifies specific loan intents as higher risk compared to standard benchmarks.
