@@ -74,7 +74,6 @@ The **Credit Risk Assesment.pbix** dashboard provides a "Command Center" view of
    ```bash
    git clone https://github.com/Royster393/Credit-Risk-ML-Powered-Stress-Testing-Pipeline.git
    ```
-### Setup
 
 2. **Install Dependencies:**
 
