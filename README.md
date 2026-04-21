@@ -53,7 +53,7 @@ The **Credit Risk Assesment.pbix** dashboard provides a "Command Center" view of
 │   ├── main.png                # Dashboard Overview
 │   └── details.png             # Underwriter Deep-Dive
 ├── csv/
-│   └── credit_risk_dataset.csv          # Ignored via .gitignore
+│   └── credit_risk_dataset.csv # Ignored via .gitignore
 ├── Credit Risk Assesment ML.pbix  # Master Power BI Dashboard
 ├── .gitignore                  # Prevents large data uploads
 └── README.md                   # Documentation
