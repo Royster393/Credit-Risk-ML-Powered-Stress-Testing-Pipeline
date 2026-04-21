@@ -53,7 +53,7 @@ The **Credit Risk Assesment.pbix** dashboard provides a "Command Center" view of
 │   ├── main.png                # Dashboard Overview
 │   └── details.png             # Underwriter Deep-Dive
 ├── csv/
-│   └── (Data files)            # Ignored via .gitignore
+│   └── credit_risk_dataset.csv          # Ignored via .gitignore
 ├── Credit Risk Assesment ML.pbix  # Master Power BI Dashboard
 ├── .gitignore                  # Prevents large data uploads
 └── README.md                   # Documentation
@@ -72,7 +72,7 @@ The **Credit Risk Assesment.pbix** dashboard provides a "Command Center" view of
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/Royster393/Credit-Risk-Analytics-Pipeline.git
+   git clone https://github.com/Royster393/Credit-Risk-ML-Powered-Stress-Testing-Pipeline.git
    ```
 ### Setup
 
